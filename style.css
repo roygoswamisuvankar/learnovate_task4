@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E2F3F9;
+    
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #438797;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+  .name{
+      position: relative;
+      top: 5%;
+      color: whitesmoke;
+      font-size: 28px;
+      font-weight: bold;
+      font-family: monospace;
+  }
+  .name1{
+      position: relative;
+      top:5%;
+      color: whitesmoke;
+      font-family: monospace;
+      font-weight: bold;
+  }
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+     
+  div.content {
+    margin-left: 350px;
+    padding: 1px 16px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
+  /*image*/
+  img{
+      position: relative;
+      top: 5%;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  }
+
+  /*table design*/
+  table{
+      border-collapse: collapse;
+      padding: 10px;
+      text-align: center;
+      width: 70vw;
+  }
+  th{
+      padding: 10px 12px;
+  }
+  tr,td{
+      padding: 10px 12px;
+  }
+ ul.skills li{
+     display: inline-block;
+     list-style-type: circle;
+     content: " * ";
+ }
+ .skills li:before{
+    content: '\00a0\2022\00a0\00a0';
+ }
+
+
+ .social{
+     position: relative;
+     top: 5%;
+ }
+ ul.social li{
+     display: inline-block;
+ }
