@@ -46,3 +46,15 @@ $(document).ready(function(){
         
     })
 });
+$(document).ready(function(){
+    $(".link").hover(function(){
+        $(this).css({
+            'color':'blue'
+        });
+    }, function(){
+        $(this).css({
+            'color':'blue'
+        });
+    });
+
+})
