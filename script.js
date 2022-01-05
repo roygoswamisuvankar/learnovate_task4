@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     //hover 
 
-    $("a").hover(function(){
+    /*$("a").hover(function(){
         $(this).css({
             'color':'#BD3147'
         });
@@ -14,7 +14,7 @@ $(document).ready(function(){
         $(this).css({
             'color':'white'
         });
-    });
+    });*/
 
     
     $("#aboutme").click(function(){
